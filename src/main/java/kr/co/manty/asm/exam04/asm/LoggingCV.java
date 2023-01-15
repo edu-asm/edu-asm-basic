@@ -1,6 +1,7 @@
-package kr.co.manty.asm.exam04;
+package kr.co.manty.asm.exam04.asm;
 
 
+import kr.co.manty.asm.exam04.LogWorker;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;

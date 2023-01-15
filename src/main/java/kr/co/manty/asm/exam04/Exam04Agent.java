@@ -1,12 +1,12 @@
 package kr.co.manty.asm.exam04;
 
 import kr.co.manty.asm.exam04.asm.ElapseTimeCV;
+import kr.co.manty.asm.exam04.asm.LoggingCV;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.ClassWriter;
 
 import java.lang.instrument.ClassFileTransformer;
-import java.lang.instrument.IllegalClassFormatException;
 import java.lang.instrument.Instrumentation;
 import java.security.ProtectionDomain;
 
